@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+
+
+</head>
+
+<body>
+    <!-- NAV -->
+    <div class="contaibernav">
+        <a href="home.html">HOME</a>
+        <a href="services.html">SERVICES</a>
+        <a href="about.html">ABOUT</a>
+        <a href="form.html">FORM</a>
+    </div>
+
+    <!-- Form container -->
+
+    <div class="form-container">
+
+        <div class="form-card-container">
+            <form id="projectForm" class="form-card">
+
+                <h2>Add New Project</h2>
+
+                <input type="text" id="namaP" placeholder="Project Name">
+                <textarea id="deskripsiP" placeholder="Description"></textarea>
+
+                <input type="file" id="image" class="img-input">
+
+                <div class="label-project">
+                    <label><input type="checkbox" id="nodeJs">Node JS</label>
+                    <label><input type="checkbox" id="reactJs">React JS</label>
+                    <label><input type="checkbox" id="nextJs">Next JS</label>
+                    <label><input type="checkbox" id="typeSc">TypeScript</label>
+                </div>
+
+                <button type="submit">Add Project</button>
+
+            </form>
+        </div>
+
+        <div class="hasil-container">
+            <h2>My Project</h2>
+            <div class="hasil-project" id="pojectList">
+
+                
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -28,8 +28,6 @@ body {
     border-top: solid rgba(0, 0, 0, 0);
     transition: 0.8s;
     text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-
 }
 
 .contaibernav a:hover {
@@ -388,13 +386,109 @@ form button:hover {
     height: 500px;
     border-radius: 10px;
     display: flex;
-    align-items: start;
-    justify-content: center;
+    align-items: center;
+    justify-content: start;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    flex-direction: column;
 
 }
 
 .hasil-container h2 {
     font-family: "poppins";
     border-bottom: 2px solid;
+    margin-bottom: 0
+}
+
+.serch{
+    margin: 5px;
+    width: 300px;
+    height: 25px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+}
+
+/* Card Projects */
+
+.hasil-projects {
+    background-color: rgba(240, 248, 255, 0.118);;
+    width: 900px;
+    height: 380px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 10px;
+}
+
+/* card-project */
+
+.card-Projects {
+    background-color: rgba(240, 248, 255, 0.118);
+    min-width: 230px;
+    max-width: 230px;
+    height: 330px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-Projects img {
+    width: 100%;
+    height: 150px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.card-Projects h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "poppins";
+}
+
+.des-container {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    /* background-color: aqua; */
+    overflow: hidden;
+
+}
+
+.card-Projects .des-container p {
+    margin: 0;
+}
+
+.card-Projects .tech {
+    margin-top: 1px;
+    font-size: 10px;
+}
+
+.button-card-project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-card-project .show-button {
+    background-color: #98989800;
+    border: none;
+}
+
+.deleteProject {
+    border-radius: 100px;
+    border: none;
+    background-color: rgba(240, 248, 255, 0.118);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.deleteProject:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
